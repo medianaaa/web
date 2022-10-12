@@ -1,0 +1,11 @@
+
+* {
+    margin: 0 auto;
+    align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-area{
+  width: 99%;
+}
