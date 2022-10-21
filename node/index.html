@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Page Returned by Making Http Call to Node.js</title>
+    <style type="text/css">
+      table,
+      td {
+        border: double;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="http://localhost:3000/example" method="post">
+      <div>
+        <label for="f1">Имя:</label><input type="text" name="f1" required />
+      </div>
+      <div>
+        <label for="f2">E-mail:</label><input type="text" name="f2" required />
+      </div>
+      <div>
+        <label for="f3">Веб сайт:</label
+        ><input type="text" name="f3" required />
+      </div>
+      <div>
+        <label for="f4">Комментарий:</label
+        ><textarea name="f4" id="" cols="30" rows="10" required></textarea>
+      </div>
+      <div>
+        <label for="">Пол:</label>
+        <div>
+          <label for="пол">Мужской</label>
+          <input type="radio" name="пол" />
+        </div>
+
+        <div>
+          <label for="пол">Женский</label>
+          <input type="radio" name="пол" />
+        </div>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+    <!-- <h1>Product Information Page</h1>
+    <table>
+      <tr>
+        <td>Product Id:</td>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td>Product Name:</td>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="button" value="Save" />
+        </td>
+      </tr>
+    </table> -->
+  </body>
+</html>
